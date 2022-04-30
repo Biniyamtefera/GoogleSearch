@@ -1,0 +1,4 @@
+2022-04-30 15:15:13,782  INFO [main] GoogleSearch:19 - entering application URL
+2022-04-30 15:15:13,794  INFO [main] GoogleSearch:25 - Actual title page
+2022-04-30 15:15:13,794  INFO [main] GoogleSearch:27 - expected title page
+2022-04-30 15:15:13,800  INFO [main] GoogleSearch:29 - The title is google
