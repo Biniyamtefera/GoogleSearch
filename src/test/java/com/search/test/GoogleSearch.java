@@ -15,7 +15,7 @@ public class GoogleSearch {
     @BeforeMethod
     public void openGoogleSearchPage() {
         BasePage  basePage = new BasePage();
-        basePage.openBrowser();
+        basePage.openGoogleBrowser();
         log.info("entering application URL");
     }
 

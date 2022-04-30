@@ -6,9 +6,11 @@ import org.testng.annotations.BeforeMethod;
 
 public class BasePage {
 
-    public void openBrowser() {
-        // Driver.getDriver().get("https://www.google.com");
+    public void openGoogleBrowser() {
         Driver.getDriver().get(ConfigurationReader.getProperty("googleUrl"));
+    }
 
+    public void openAmazonBrowser() {
+        Driver.getDriver().get(ConfigurationReader.getProperty("amazon"));
     }
 }
